@@ -1,0 +1,27 @@
+#root {
+  min-width: 350px;
+  /* margin: 0 auto; */
+  padding: 1rem;
+  /* text-align: center; */
+  /* border: 1px greenyellow solid; */
+
+}
+
+/* NavBar */
+nav{
+  width: 100%;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.87);
+  flex-wrap: wrap;
+  
+}
+
+nav div{
+  /* border: 1px greenyellow solid; */
+  flex-grow: 1;
+  flex-basis: 200;
+  text-align: center;  
+}
